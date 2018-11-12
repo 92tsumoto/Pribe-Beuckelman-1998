@@ -1,0 +1,78 @@
+/* cell type */
+/* celltype == 0 --> Original */
+/* celltype == 1 --> Endo */
+/* celltype == 2 --> Mid */
+/* celltype == 3 --> Epi */
+1
+
+/* switch */
+// failing == 0; normal heart
+// failing == 1; hart failure
+0
+
+/* Base cycel length */
+1000
+
+/* Istim */
+-100
+
+/* number of datas */
+1
+
+/* line width */
+2
+
+/* x1, y1 */
+//-90.78		// Vm    = x[0]
+//0.0005855	// m     = x[1]
+//0.9958		// h     = x[2]
+//0.9970		// j     = x[3]
+//2.5065e-10	// d     = x[4]
+//0.921		// f     = x[5]
+//1.75e-05	// r     = x[6]
+//0.99989		// t     = x[7]
+//0.00885		// xs    = x[8]
+//0.0002155	// xr    = x[9]
+//10.0		// Nai   = x[10]
+//140.0		// Ki    = x[11]
+//0.0002		// Cai   = x[12]
+//2.5			// CaNSR = x[13]
+//2.5			// CaJSR = x[14]
+
+-80.7796417483135
+0.000585525582501575
+0.995865529216237
+0.997011204496203
+//2.50653215966786e-10
+0.0
+0.92130376850548
+0.0000175032478501027
+0.999897251531651
+0.00885658064818147
+0.000215523048438941
+10
+140
+0.0002
+2.5
+2.5
+
+/* direction of time */
+1
+/* end time. 0.0 = nolimit of integration */ 
+0
+
+1		/* number of period */
+200	    /* strip for integral */
+1		/* poincare flag 0 --- poincare/1 --- orbit */
+0		/* write file 0 --- not write/1 --- write */
+0		/* write flag 0 --- poincare/1 --- orbit */
+0		/* if 1 then period is PI*/
+
+100 600 100 600     /* graph location */
+-0.2 1.2 -100 60	/* scaling */
+0.2 30 1 1     /* label strip & interval */
+1 1                 /* floating point */
+1                   /* axis/grid */
+-sony-fixed-medium-r-normal--24-170-100-100-c-120-iso8859-1 /* font */
+-212 -460 -40 -288      /* arrow */
+1                   /* command */
